@@ -1,1 +1,1 @@
-# mintingdapp-cuteinsane-eth
+# cute insano Project
