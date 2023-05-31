@@ -18,164 +18,160 @@ export default function RoadMap() {
         </div>
         <div className="grid w-full grid-cols-1 gap-5 pb-3 border-t-2 border-green-500 md:grid-cols-2">
           <div className="flex items-start justify-start w-full gap-5 py-5">
-            <h1 className="text-green-500 text-[40px] font-bold">Q1</h1>
+            <h1 className="text-green-500 text-[40px] font-bold">1</h1>
             <div className="flex flex-col items-start justify-center gap-2">
               <h1 className="text-xl font-bold text-gray-800 newfont">
-                Launching
+                Planning, Research, and Communication Platform
               </h1>
 
               <p className="text-gray-400 text-md">
-                Pepechain is reshaping how the meme economy. We create a
-                conducive.
+                Establish a Communication Platform, Design work, Review & Refine.
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-1 bg-green-500 bg-opacity-80">
+          <div className="grid grid-cols-1 gap-1 bg-green-500 bg-opacity-80">
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                Set up Twitter & Discord server.
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+              Domain for the project website.
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                Innovative designs for the 1st collection.
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+               Finalizing 1st collection.
               </p>{" "}
             </div>
           </div>
         </div>
         <div className="grid w-full grid-cols-1 gap-5 pb-3 border-t-2 border-green-500 md:grid-cols-2">
           <div className="flex items-start justify-start w-full gap-5 py-5">
-            <h1 className="text-green-500 text-[40px] font-bold">Q2</h1>
+            <h1 className="text-green-500 text-[40px] font-bold">2</h1>
             <div className="flex flex-col items-start justify-center gap-2">
               <h1 className="text-xl font-bold text-gray-800 newfont">
-                Stability
+                The Mint & NFT benefits
               </h1>
 
               <p className="text-gray-400 text-md">
-                Pepechain is reshaping how the meme economy. We create a
-                conducive.
+                There will be whitelist mint for 24 hours - 1000 allocated for whitelist & 1500 for public Mint.
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-1 bg-green-500 bg-opacity-80">
+          <div className="grid grid-cols-1 gap-1 bg-green-500 bg-opacity-80">
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                15% of each mint will go back to holders. The more & early you mint = more rewards
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                25% discount for Rodenticide. Rodenticide will be used to convert them into insane
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                10% total mints added to community pool for flaredrop share.
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                5% total mints to hidden rewards to nft minter.
+              </p>{" "}
+					  </div>
+					              <div className="flex items-center justify-center gap-3">
+              <AiFillStar color="white" size={12} />
+              <p className="font-bold text-gray-700">
+                10% royalties to community pool for flaredrop.
               </p>{" "}
             </div>
           </div>
         </div>
         <div className="grid w-full grid-cols-1 gap-5 pb-3 border-t-2 border-green-500 md:grid-cols-2">
           <div className="flex items-start justify-start w-full gap-5 py-5">
-            <h1 className="text-green-500 text-[40px] font-bold">Q3</h1>
+            <h1 className="text-green-500 text-[40px] font-bold">3</h1>
             <div className="flex flex-col items-start justify-center gap-2">
               <h1 className="text-xl font-bold text-gray-800 newfont">
-                Sustainable Growth
+                Pest Control - Rodenticide 
               </h1>
 
               <p className="text-gray-400 text-md">
-                Pepechain is reshaping how the meme economy. We create a
-                conducive.
+                Rodenticide will be used to convert rats to insane - 2nd collection.
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-1 bg-green-500 bg-opacity-80">
+          <div className="grid grid-cols-1 gap-1 bg-green-500 bg-opacity-80">
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                After the mint out, Rodenticide will be introduced.
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                Minting Rodenticide bottles - Cute Rats holders will be able to buy them for 25% off
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                Launch of Rodenticide Portal
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                Rodenticide bottles will be burned & insane rats will be generated.
               </p>{" "}
             </div>
           </div>
         </div>
         <div className="grid w-full grid-cols-1 gap-5 pb-3 border-t-2 border-green-500 md:grid-cols-2">
           <div className="flex items-start justify-start w-full gap-5 py-5">
-            <h1 className="text-green-500 text-[40px] font-bold">Q4</h1>
+            <h1 className="text-green-500 text-[40px] font-bold">4</h1>
             <div className="flex flex-col items-start justify-center gap-2">
               <h1 className="text-xl font-bold text-gray-800 newfont">
-                Infinity and Beyond
+                Expansion and Future Development.
               </h1>
 
               <p className="text-gray-400 text-md">
-                Pepechain is reshaping how the meme economy. We create a
-                conducive.
+                Continuously release updates, new giveaways, and features.
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-1 bg-green-500 bg-opacity-80">
+          <div className="grid grid-cols-1 gap-1 bg-green-500 bg-opacity-80">
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                 Explore potential collaborations with other projects and partners.
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
+                Gather community feedback and suggestions for future expansions.
               </p>{" "}
             </div>
             <div className="flex items-center justify-center gap-3">
               <AiFillStar color="white" size={12} />
               <p className="font-bold text-gray-700">
-                pepechain beta release
-              </p>{" "}
-            </div>
-            <div className="flex items-center justify-center gap-3">
-              <AiFillStar color="white" size={12} />
-              <p className="font-bold text-gray-700">
-                pepechain beta release
+                Stay at the forefront of technological advancements.
               </p>{" "}
             </div>
           </div>

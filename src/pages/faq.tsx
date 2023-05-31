@@ -10,7 +10,7 @@ export default function Faq() {
   const [faqDetail3, setFaqDetail3] = useState(false);
   return (
     <section
-      className="relative flex flex-col items-center justify-center w-full bg-white pb-[200px] border-t-[1px] border-b-[1px] border-green-500"
+      className="relative flex flex-col items-center justify-center w-full bg-white pb-[200px] border-t-[1px] border-b-[1px] border-[#7ac62e]"
       id="faq"
     >
       <div className="2xl:w-[1440px] xl:w-[1224px] lg:w-[900px] w-full flex items-center justify-center relative flex-col px-5">
@@ -20,7 +20,7 @@ export default function Faq() {
             What is our FAQ?
           </h1>
         </div>
-        <div className="w-full border-[#7ac62e] border-[2px] rounded-xl">
+        <div className="w-full border-green-500 border-[2px] rounded-xl">
           <div className="w-full px-8 py-8 bg-green-500 rounded-t-xl">
             <h1 className="text-[35px] text-white newfont">FAQs</h1>
           </div>
@@ -31,7 +31,7 @@ export default function Faq() {
             >
               <div className="flex items-center justify-between w-full">
                 <h1 className="text-[20px] font-bold text-gray-800 newfont uppercase">
-                  I sold an pepechain, where's my BNB?
+                  What is total supply and minting cost?
                 </h1>
                 <div className="text-[15px] font-bold flex gap-2 items-center justify-center text-[#6cea63]">
                   {faqDetail1 ? "Hiden" : "Detail"}
@@ -48,11 +48,9 @@ export default function Faq() {
                 <div className="md:w-[70%] w-full transition-all duration-300">
                   <p className="text-sm text-gray-400">
                     {" "}
-                    Pepechain and BNB are both cryptocurrencies, so it's
-                    possible that you sold pepechain for BNB on a cryptocurrency
-                    exchange. If that's the case, you should check your account
-                    on the exchane to see if the BNB has been deposited, was a
-                    delay in the transaction or an issue with the exchange.
+                    Total supply for the 1st collection will be 2500. Minting
+                    cost during whitelist - 1000 FLR & Minting cost during
+                    public mint - 1500 FLR
                   </p>
                 </div>
               )}
@@ -63,7 +61,7 @@ export default function Faq() {
             >
               <div className="flex items-center justify-between w-full">
                 <h1 className="text-[20px] font-bold text-gray-800 newfont uppercase">
-                  How can I list my pepechain collection on the Market?
+                  What are the benefits of NFTs?
                 </h1>
                 <div className="text-[15px] font-bold flex gap-2 items-center justify-center text-[#6cea63]">
                   {faqDetail2 ? "Hiden" : "Detail"}
@@ -81,11 +79,12 @@ export default function Faq() {
                   {" "}
                   <p className="text-sm text-gray-400">
                     {" "}
-                    Pepechain and BNB are both cryptocurrencies, so it's
-                    possible that you sold pepechain for BNB on a cryptocurrency
-                    exchange. If that's the case, you should check your account
-                    on the exchane to see if the BNB has been deposited, was a
-                    delay in the transaction or an issue with the exchange.
+                    1. 15% mintcost back to holders.<br></br>
+                    2. 10% added community pools for flrdrop.<br></br>
+                    3. 10% royalty to community pools for flrdrop.<br></br>
+                    4. 5% hidden rewards for nft minter.<br></br>
+                    5. 25% discount for whitelist of Rodenticide. Rodenticide
+                    will be used to convert them into insane.
                   </p>
                 </div>
               )}
@@ -96,7 +95,7 @@ export default function Faq() {
             >
               <div className="flex items-center justify-between w-full">
                 <h1 className="text-[20px] font-bold text-gray-800 newfont uppercase">
-                  What are the fees?
+                  What is community pool & Rodenticide usage?
                 </h1>
                 <div className="text-[15px] font-bold flex gap-2 items-center justify-center text-[#6cea63]">
                   {faqDetail3 ? "Hiden" : "Detail"}
@@ -114,11 +113,13 @@ export default function Faq() {
                   {" "}
                   <p className="text-sm text-gray-400">
                     {" "}
-                    Pepechain and BNB are both cryptocurrencies, so it's
-                    possible that you sold pepechain for BNB on a cryptocurrency
-                    exchange. If that's the case, you should check your account
-                    on the exchane to see if the BNB has been deposited, was a
-                    delay in the transaction or an issue with the exchange.
+                    10% every mint will be added to community pool to receiver
+                    FlareDrop monthly. This flaredrop (FLR) will be shared
+                    between NFT holders. <br></br>
+                    There will be release of Rodenticide bottles NFTs, these
+                    bottles will be applied on the cute rats to convert them
+                    into insane. During the process Rodenticide bottles will be
+                    burned and insane rat will be generated.
                   </p>
                 </div>
               )}

@@ -34,7 +34,7 @@ export default function Footer() {
     <footer className="w-full h-[100px] flex items-center justify-center backdrop-blur-lg z-50 bg-white">
       <div className="2xl:w-[1440px] max-w-[1440px] xl:w-[1224px] lg:w-[900px] w-full px-5 flex items-center justify-between">
         <Link href={`/`} passHref>
-          <div className="rounded-lg cursor-pointer">
+          <div className="hidden rounded-lg cursor-pointer md:block">
             <img
               src="/img/logo.png"
               className=" object-cover object-center w-[80px] h-[80px] p-1 rounded-full"
@@ -42,11 +42,11 @@ export default function Footer() {
             />
           </div>
         </Link>
-        <div className="text-gray-700">
+        <div className="text-gray-700 text-md newfont">
           copyright @2023 Join our{" "}
           <a
-            className="font-bold text-green-300 duration-300 cursor-pointer hover:text-green-500 hover:underline"
-            href="https://twitter.com/Flaregods"
+            className="font-bold text-green-400 duration-300 cursor-pointer hover:text-green-500 hover:underline"
+            href="https://twitter.com/cutetoinsane"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,8 +54,8 @@ export default function Footer() {
           </a>{" "}
           &{" "}
           <a
-            className="font-bold text-green-300 duration-300 cursor-pointer hover:text-green-500 hover:underline"
-            href="https://discord.gg/auUGNVSpKb"
+            className="font-bold text-green-400 duration-300 cursor-pointer hover:text-green-500 hover:underline"
+            href="https://discord.gg/YBpFDXZrBr"
             target="_blank"
             rel="noreferrer"
           >

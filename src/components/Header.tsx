@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { useWeb3React } from "@web3-react/core";
 
 import { switchNetwork, injected } from "../connecthook/switch-network";
-import { FaWallet } from "react-icons/fa";
+import { FaDiscord, FaWallet } from "react-icons/fa";
 
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
@@ -106,11 +106,12 @@ export default function Header() {
           {account ? (
             <button
               onClick={() => disconnect()}
-              className="px-9 py-3 text-white bg-green-500 border-green-700 rounded-full border-[1px]
-              hover:border-green-500 transition-all duration-300 font-bold flex gap-2 text-xl"
+              className="px-7 py-3 text-white bg-green-500  rounded-full border-[1px]
+              hover:border-green-500 transition-all duration-300 font-bold flex gap-2 text-xl items-center"
             >
-              <span className="flex gap-2 font-normal text">
-                <FaWallet style={{ marginTop: "3%" }} />
+              <FaWallet />
+              <span className="flex gap-2 font-normal text-[17px] newfont">
+                {" "}
                 {account && account.slice(0, 4) + "..." + account.slice(-4)}
               </span>
             </button>
@@ -118,12 +119,10 @@ export default function Header() {
             <button
               onClick={() => connect()}
               className="px-7 py-3 text-white bg-green-500  rounded-full border-[1px]
-              hover:border-green-500 transition-all duration-300 font-bold flex gap-2 text-xl"
+              hover:border-green-500 transition-all duration-300 font-bold flex gap-2 text-xl items-center"
             >
-              <span className="flex gap-2 font-normal text">
-                {" "}
-                <FaWallet style={{ marginTop: "3%" }} /> Connect
-              </span>
+              <FaWallet />
+              <span className="flex gap-2 font-normal newfont">connect</span>
             </button>
           )}
         </div>

@@ -26,30 +26,30 @@ export default function Team() {
           <TeamCard
             role={"Co-founder"}
             description={
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+              "An integral catalyst in the emergence of this innovative NFT project. The co-founder works in unison with the founder, bringing a unique set of skills and a fresh perspective to the table. Their combined knowledge of blockchain technology and the digital art market make them a formidable team driving the future of NFTs."
             }
             imgUrl={"/img/nft/1.png"}
           />
           <TeamCard
             role={"Founder"}
             description={
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+              "A forward-thinking pioneer who saw a unique opportunity in the intersection of blockchain technology and digital art. The founder of the NFT project utilizes their profound understanding of the digital assets landscape to transform virtual ideas into tangible tokens of value. Their vision lies in reshaping how we perceive and interact with art in the digital age."
             }
             imgUrl={"/img/nft/2.png"}
           />
           <TeamCard
             role={"Developer"}
             description={
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+              "A savvy blockchain specialist who translates complex ideas into lines of code. As the developer for this NFT project, they create, test, and perfect the smart contracts and underlying systems that make each NFT unique and verifiable. Their work ensures the security and reliability of each digital asset, setting the technical foundation for the project's success."
             }
-            imgUrl={"/img/nft/2.png"}
+            imgUrl={"/img/nft/3.png"}
           />
           <TeamCard
             role={"Designer"}
             description={
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+              "An innovative digital artist who breathes life into the NFT project. Their designs go beyond the aesthetics, imbuing each NFT with a distinct story and identity. By blending creativity with the latest digital design tools, they create digital masterpieces that are not only visually captivating but also hold significant value in the blockchain world."
             }
-            imgUrl={"/img/nft/1.png"}
+            imgUrl={"/img/nft/4.png"}
           />
         </div>
       </div>
