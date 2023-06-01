@@ -4,22 +4,6 @@
     "type": "function",
     "stateMutability": "view",
     "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
-    "name": "GFLRPrice",
-    "inputs": []
-  },
-  {
-    "type": "function",
-    "stateMutability": "view",
-    "outputs": [
-      { "type": "address", "name": "", "internalType": "contract IERC20" }
-    ],
-    "name": "GFLRToken",
-    "inputs": []
-  },
-  {
-    "type": "function",
-    "stateMutability": "view",
-    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
     "name": "accPerShare",
     "inputs": []
   },
@@ -181,13 +165,6 @@
     "type": "function",
     "stateMutability": "view",
     "outputs": [{ "type": "address", "name": "", "internalType": "address" }],
-    "name": "ownerAddress",
-    "inputs": []
-  },
-  {
-    "type": "function",
-    "stateMutability": "view",
-    "outputs": [{ "type": "address", "name": "", "internalType": "address" }],
     "name": "ownerOf",
     "inputs": [
       { "type": "uint256", "name": "tokenId", "internalType": "uint256" }
@@ -275,15 +252,6 @@
     "inputs": [
       { "type": "address", "name": "operator", "internalType": "address" },
       { "type": "bool", "name": "approved", "internalType": "bool" }
-    ]
-  },
-  {
-    "type": "function",
-    "stateMutability": "nonpayable",
-    "outputs": [],
-    "name": "setGFLRAD",
-    "inputs": [
-      { "type": "uint256", "name": "_price", "internalType": "uint256" }
     ]
   },
   {
@@ -392,13 +360,6 @@
   },
   {
     "type": "function",
-    "stateMutability": "nonpayable",
-    "outputs": [],
-    "name": "setsGFLRAddress",
-    "inputs": [{ "type": "address", "name": "addr", "internalType": "address" }]
-  },
-  {
-    "type": "function",
     "stateMutability": "view",
     "outputs": [{ "type": "bool", "name": "", "internalType": "bool" }],
     "name": "supportsInterface",
@@ -466,6 +427,16 @@
     "name": "transferOwnership",
     "inputs": [
       { "type": "address", "name": "newOwner", "internalType": "address" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "updateLifetimeReward",
+    "inputs": [
+      { "type": "address", "name": "recipient", "internalType": "address" },
+      { "type": "uint256", "name": "amount", "internalType": "uint256" }
     ]
   },
   {
