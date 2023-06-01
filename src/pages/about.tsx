@@ -19,13 +19,16 @@ export default function About() {
             </div>
             <div className="bg-[#1D4E29] flex items-start justify-center text-white flex-col p-4">
               <h1 className="text-[25px] text-white newfont">
-                The Layer 1 Blockchain Ecosystem built for Cute
+                What is Cute to Insane
               </h1>
               <p className="text-[16px] text-white">
-                Pepechain is reshaping how the meme economy is perceived. We
-                create a conducive environment for Web3 founders to build and
-                launch innovative projects.
-              </p>
+			  Cute to Insane is the NFT on the Flare network. We aim to introduce two collections; the project aims to provide NFTs to the holders and give benefits for holding.</p><br></br>
+			  <h1 className="text-[25px] text-white newfont">
+							  The Mint?
+							  
+              </h1>		  
+              <p className="text-[16px] text-white">
+			  Whitelist mint will run for 24 hours and mint cost will be 1000 FLR. 1000 out of 2500 NFTs will be available during whitelist. After 24 hours, public mint will be open for all - Mint cost 1500.</p>
             </div>
           </div>
           <div className="grid w-full grid-cols-1 md:grid-cols-3 min-h-[27vh]">
@@ -34,12 +37,14 @@ export default function About() {
             </div>
             <div className="bg-[#1D4E29] flex items-start justify-center text-white flex-col p-4">
               <h1 className="text-[25px] text-white newfont">
-                The Layer 1 Blockchain Ecosystem built for Cute
+                What are the utilties of our NFTs?
               </h1>
               <p className="text-[16px] text-white">
-                Pepechain is reshaping how the meme economy is perceived. We
-                create a conducive environment for Web3 founders to build and
-                launch innovative projects.
+				15% mintcost back to holders.<br></br>
+				10% added community pools for flrdrop.<br></br>
+				10% royalty to community pools for flrdrop.<br></br>
+				5% hidden rewards for nft minter.<br></br>
+				25% discount for whitelist of Rodenticide. Rodenticide will be used to convert them into insane.
               </p>
             </div>{" "}
             <div className="bg-[#14311B] flex items-center justify-center text-white newfont">

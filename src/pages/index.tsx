@@ -50,22 +50,23 @@ const Home: NextPage = () => {
               <div className="w-full">
                 <div className="w-full ">
                   <h1 className="2xl:text-[70px] xl:text-[55px] lg:text-[50px] md:text-[40px] text-[50px] font-extrabold text-gray-800 text-center lg:text-left newfont w-full">
-                    Discover the universe
+                    Discover the universe of
                   </h1>
                   <h1 className="2xl:text-[65px] xl:text-[55px] lg:text-[50px] md:text-[40px] text-[30px] font-extrabold text-green-500 text-center lg:text-left newfont w-full">
-                    of CuteMouse
+                    Cute to Insane
                   </h1>
                   <p className="text-[20px] text-gray-500 font-bold text-center md:text-left">
-                    The most memeable memecoin in existence. The dogs have had
-                    their day, it is time for pepe to take regin.
+                    What doesn't kill you, makes you stronger!
                   </p>
                   <div className="flex items-center justify-center w-full lg:items-start lg:justify-start">
-                    <button
-                      className="px-10 py-3 text-white bg-green-500  rounded-full border-[1px]
-                    hover:border-green-500 transition-all duration-300 font-bold flex gap-2 text-2xl my-10"
-                    >
-                      Mint now
-                    </button>
+                    <Link href={"/mint"} passHref>
+                      <button
+                        className="px-10 py-3 text-white bg-green-500  rounded-full border-[1px]
+                    hover:border-green-500 transition-all duration-300 font-bold flex gap-2 text-xl my-10 newfont"
+                      >
+                        Mint now
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -19,7 +19,7 @@ export default function Collection() {
               Collection
             </h1>
             <h1 className="text-[40px] font-bold text-gray-800 newfont uppercase text-center">
-              Our Cute Insane
+              Our Cute to Insane
             </h1>
           </div>
         </Fade>
@@ -27,11 +27,11 @@ export default function Collection() {
           <CollectionSlider />
         </div>
         <Fade>
-          <div className="flex flex-col items-center justify-center w-full gap-5">
+          <div className="flex flex-col items-center justify-center w-full gap-1">
             <h1 className="md:text-[100px] text-[50px] font-extrabold text-center text-gray-800 newfont">
-              5000
+              2500
             </h1>
-            <h1 className="text-xl text-center text-gray-400 uppercase">
+            <h1 className="text-xl font-bold text-center text-gray-500 uppercase newfont">
               Total Items in collection
             </h1>
           </div>
